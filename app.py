@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_bcrypt import Bcrypt
 from models import db, User, Course, UserCourse 
-from siyavula_auth import verify_siyavula_token 
 from config import Config
 
 app = Flask(__name__)
